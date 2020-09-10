@@ -73,7 +73,7 @@ class TicTacToe
       if valid_move?(input)
           move(input, current_player)
       else
-          turn until over?
+          turn
       end
     display_board
   end
@@ -125,8 +125,7 @@ class TicTacToe
   end
   
   def play 
-    until over? == true
-      turn
+    turn until over? == true
     end
     
     if won?
