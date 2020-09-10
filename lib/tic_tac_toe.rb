@@ -134,6 +134,10 @@ class TicTacToe
       puts "Cat's Game!"
     end
   end
+  
+  def initialize
+    @board
+  end
 
 end
 
