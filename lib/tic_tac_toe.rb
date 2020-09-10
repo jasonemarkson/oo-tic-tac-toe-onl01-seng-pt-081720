@@ -137,3 +137,5 @@ class TicTacToe
 
 end
 
+TicTacToe.new
+
