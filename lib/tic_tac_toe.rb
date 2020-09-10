@@ -135,10 +135,6 @@ class TicTacToe
     end
   end
   
-  def initialize
-    @board
-  end
-
 end
 
 
