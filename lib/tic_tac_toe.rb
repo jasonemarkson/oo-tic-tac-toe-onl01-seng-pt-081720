@@ -126,7 +126,6 @@ class TicTacToe
   
   def play 
     until over? == true
-      binding.pry
       turn
     end
     
